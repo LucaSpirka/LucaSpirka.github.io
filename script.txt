@@ -1,0 +1,280 @@
+Trailer:
+	Dune -> Models, Scenes
+	Kuriositär -> Stills
+	Im Schatten des Lichts -> Meine Stills
+	Strings of Nightmare -> Einstellungen
+	Ludum Dare -> Screenshots
+	
+Über Mich
+	Hauptteil
+		Bild
+		Intro-Text
+			-23 Jahre
+			-Praktikum bei Harz Energie
+			-Studiere Medieninofrmatik seit 2021
+			-Konnte sowhol alleine als auch in verschiedensten Teams an der Gestaltung und Erzeugung von Medien sein
+			-Verschiedenste Pipelines vertraut gemacht
+			-Immer interessiert daran geschichten zu erzählen und Experiences zu schaffen
+			-Erster Kurzfilm, direkt Preis erhalten, motiviert
+			-Motion Capture, Keying
+			-Pipeline 3D und reales Footage
+			-Programmierung mag ich auch sehr gerne
+			-Games als schwerpunkt in den letzten Monaten
+			-Gamejams mitgemacht, aber auch andere Programmier-Projekte wie handy oder diese Webseite Hier
+
+		Was sind meine Hauptmerkmale
+			-Besonders in der Arbeit mit Blender
+			-Erstellung detalliereter und qualtitativ hochwertiger Modelle
+			-Mit vielen komplexen Szenen gearbeitet
+			-Spannendes Storytelling in verschiedensten Medien schaffen
+			-Komposition und Nachberbeitung in DV Resolve
+		
+		Wohin solls gehen?
+			-Gerne bei mir Melden
+			-Bin gerne bereit meine Fähigkeiten in der 3D und Postpro Pipeline zum erzählen von Geschichten zu verwenden
+			-Gerne wieder mehr Film, da ich dort gerne mehr Ausprobieren, Experimentieren oder einfach Erfahrung sammeln möchte
+			-Immer offen für einen Game Jam oder coole Konzepte
+			-Mehr aus meiner passiven Creator-Rolle kommen und schneller und wirkunsvoller auf Projekte Einfluss nehmen
+			
+		Meine Kentnisse
+			-Erstellung von komplexeren 3D-Modellen
+			-Umsetzen von komplexeren Features in Games
+			-3D Pipeline Blender zu Unreal
+			-Erstellung / Zusammenstellung komplexer Szenen in 3D
+			-Vereinigung Bild, Ton, 3D, COlor Grading, Editing
+		Meine Interessen
+			-Filme
+			-Musik, Arbeit mit FL Studio
+			-Coding, WebseitenDesign
+			-Game Development
+		Meine Ziele
+			-Fokus lag auf Erstellung 3D Inhalte
+			-Fokus verschieben auf Storytelling und umsetzen kompletter Visionen
+			-Erweitern der Kenntnisse im Filbereich / Umsetzen der Visionen in filmischer Version
+			-Storytelling in digitalen Medien
+			-Vereinigung verschiedener Artistischer Bereiche in zusammenhängenden Werken
+			
+	Steckbrief
+		Hauptskills
+		Programme
+		Sprachen
+		Verwendete Techniken
+			Film & Animation
+			Games & Code
+
+3D & Animation
+	Im Verlauf des Studiums habe ich mein Interesse für 3D Modellierung und 3D Animation entdeckt.
+	Hautsächlich verwende ich Blender zum modellieren und Animieren, während die finale Komposition in Davinci Resolve zusammengestellt wird.
+
+	Im Schatten des Lichts
+		-Keying Projekt an der Hochschule
+		-Professionelles Equipment
+		-Absprachen im Team
+		-Abarbeiten eines Shootingplans
+		-Preproduction: Ideen finden, Models besprechen
+		-Models ausarbeiten
+		-Stadt besonders komplex
+		-Simulationen, Kamerafahrten
+		-Sehr zufrieden mit Ergebnis und dem Look aller Elemente zusammen
+
+	Strings of Nightmare
+		-Motion Capture Projekt an der Hochschule
+		-Integrieren der Aufnahmen in eine Szene
+		-Interaktion von Charakteren miteinander
+		-Simulationen
+		-KLomplexe Kamera
+		-Rendering aufbereitung
+		-Zufireden mit der finalen Version
+
+	Dune - Kampf um Arrakis
+		-Im Zuge des Faches "3D Anim"
+		-Austoben und erlernen besserer Modellierungs-Strategiern
+		-Komplexeste Modelle
+		-Große Projekte, Handhabung der einzelenn Komponenten
+		-Animation
+		-Prozedurale Generierung
+		-Charaktere erstellt
+		-Sehr zufrieden mit den Modellen
+
+	Raum der Zukunft
+		-3D Modellierung mit hohem Ziel
+		-Blockout zum finalen Projekt
+		-2.Platz MINFF (preisgekürt)
+		-Einzelne Komponenten mit Blick aufs Ganze
+		-Sehr darüber gefreut
+
+Film
+	Kuriositär
+		-Erstes Filmprojekt jemals
+		-TZeam aus 4
+		-Script schreiben und Shooting Plan abdrehen über 2 Tage
+		-Komplette Postproduktion in DV Resolve
+		-Wes Anderson
+		-Formate mit Bedeutung
+		-Stimmung über Medien und ihre Zensur aktueller denn jemals
+		-Kleine Geschichten in der Welt finden die es zu erzählen gilt
+		-Sehr über positive Resonanz gefreut
+
+	Im Schatten des Lichts
+		-..
+
+Games
+	Ludum Dare
+		-Zweiter Game Jam
+		-Vier Leuten
+		-Programmieren in UE5 Blueprints
+		-Features und Models vereinen
+		-Wenig Zeit
+		-Einheitliche Vision
+		-Umgebung modelliert
+		-Pipeline Blender & UE5
+	DigiLehR
+		-Hochschule
+		-Lehrinhalte im Digitalen Raum
+		-Professionelle Struktur
+		-Echter Delivery
+		-Angefragte Features in Unity umsetzen
+		-Kamerafahrt als Neues Feature
+		-Easing, Splines, etc. überschnitt und doch neues
+	LGND
+		-Android Studio
+		-Jetpack Compose
+		-Kindheitstraum
+		-Format finden und Layout Erstellen
+		-Grafiken Erstellen
+		-Layout in Compose übertragen
+		-Logik und Design Verbinden
+		-Datenbank zur Strukturierung der Daten
+		-Zufireden mit der spielbaren versin meiner Idee
+
+
+Im Schatten des Lichts
+	-Verbindung 3D und reale Aufnahmen
+	-Absprache mit anderen Mitgliedern in der Prostproduktion
+	-Anpassen Winkel zu Footage und anderer 3D Arbeit
+	-Komplexe Szenen mit Explosionen und mehreren Kleinteilen zusammenfügen
+	-Alle Szenen zum Rendern verpacken und rechtzeitig Ausliefern
+	-Überblick über alle Szenen behalten
+	-Szenen mit Renderfarm gerendert
+	-Layouts für Räume bauen und an andere Teammitgleider auslagern
+	-Spinner aus Bladerunner 2049 nachempfinden
+	-Stadtbausteine zusammenstellen und Stadt bauen
+	-Kameraperspektive beim Sitzen im Spinner sehr schwierig
+	-Abpassen von Farben und Lichtintensitäten zum Footage
+	-Einbau von Zeitlupe
+		
+Strings of Nightmare
+	-Erste Arbeit mit Motion Capture Aufnahmen und komplexen Character-Modellen (Anzug)
+	-Einbindung der aufbereiteten Animationen
+	-Finden interessanter Perspektiven basierend auf anderen Suggestionen und Zweck der Szene
+	-Arbeiten mit den Squenzen und umgehen von Glitches / Anfangs und Endzeiten
+	-Interaktion der Charaktere miteinander Abpassen
+	-Previews zum besprechen der Intentionen des Teams
+	-Simulieren des Taschenlampen Falls
+	-Bauen der Ganzen Umgebung
+	-Komplexe Kamerabewegungen
+	-Den Vorstellungen des Teams entsprechen
+	-Alle Szenen renderbereit und auslieferbar machen
+	-Rendering unter Zeitdruck managen
+
+Dune - Kampf um Arrakis
+	-Animerbare Modelle im Zuge des Projektes für 3D-Animation
+	-Komplexität der Modelle austesten
+	-Detailgrad hochschrauben
+	-Animation vereinfachen / herausfinden
+	-Prozedurale Texturierung mittels Noise
+	-Zusammenspiel verschiedener Elemente
+
+	Ornithopter (beide)
+	Harvester
+	Harkonnen
+	Fremen
+
+	Detailshots: Fremen, Ornithopter, Harvester, Konzepte
+
+Raum der Zukunft
+	-Erstellung mit Blender
+	-Blockout mit einfachen Shapes
+	-Erstellung einzelner Models und zusammenfügen zu Szene
+	-2. Platz des HS-Harz internen MINFF-Awards
+
+	Models zeigen
+	Raum als Model zeigen
+	Line: Screenshots zu Zeiten
+
+Kuriositär
+	-Erster Kurzfilm
+	-Erstellt mit einer Gruppe aus 4 Leuten
+	-Beleuchtung, Soundaufnahmen
+	-Verfassen des Skriptes und einses sortierten Shot-Plans
+	-3D eigens erstellt
+	-Stil Orientierung an Wes Anderson
+	-Editing in Davinci resolve
+	-Sounddesign mit eigens aufegnommenen SOund
+	-NAchvertonung in Sprecherkabine
+	-Musik mit FL Studio
+	-Color Grading und finale Zusammensetzung in Davinci Resolve
+	-Einreichung und Gewinn des JFPSA2022
+
+	Link zum Video
+	Detailshots aus dem Film mit Kompositionserklärung
+
+Ludum Dare
+	-42 Ludum Dare?
+	-Team aus 4 Personen
+	-Programmieren in Unreal 5 (Blueprints)	
+	-Erstellen von Models und Szene
+	-Physics für Erze
+	-Gesamter Aufzug
+	-Arbeit mit Git
+	-Erfolgrieches Spiel in 3 Tagen
+
+DigiLehR
+	-Hochschulprojekt zur Umsetzung von Lehrinhalten in den digitalen Raum
+	-Arbeit mit Unity
+	-Arbeit in professioneller Arbeitsstruktur
+	-Enge Zeiträume mit Zielen von Features
+	-Kamerafahrt durch den Raum
+	-Setzen von Punkten
+	-Interpolieren der Kamera
+	-Große und Komplexe Code-Basis
+	-Automatische Clip-Benennung
+
+GGJ
+	-Team aus 6 Personen
+	-Ideenfindung
+	-Modelling einiger Objekte im Raum
+	-Audiodesign und zusammentragen von Sounds
+	-Programmieren kleinerer Features im Game
+	-Hintergrundbild erstellt
+
+LGND
+	-Konzept seit der Jugend
+	-Umsetzung als App für Androind Devices
+	-Jetpack Compose
+	-Programmieren mit Kotlin
+	-Design mit InDesign
+	-Arbeiten mit Datenbank zum Speichern und Lesen der Daten
+	-Verbinden von Design und Funktionalität nach den Gängigen Mustern von View, Model, ViewModel
+	-AndroidStudio und Git
+	-Verschiedenste Screens mit unterschiedlichen Designs und Funktionen
+	-Einbau weiterer Features nach Abgabe
+	
+	Screenshots Screens
+
+
+Andressen
+Arrow: https://www.freeiconspng.com/uploads/right-arrow-icon-27.png
+Search: https://images.icon-icons.com/1674/PNG/512/search_111173.png
+eye: https://cdn-icons-png.flaticon.com/512/65/65000.png
+read: https://cdn-icons-png.flaticon.com/512/3068/3068380.png
+cube: https://cdn-icons-png.flaticon.com/512/84/84583.png
+clap: https://cdn-icons-png.flaticon.com/512/92/92197.png
+strip: https://cdn-icons-png.flaticon.com/512/916/916748.png
+contrtoller: https://cdn-icons-png.flaticon.com/512/3743/3743230.png
+cube_shaded: https://cdn-icons-png.flaticon.com/512/645/645928.png
+cube_vp: https://www.freeiconspng.com/thumbs/3d-cube-png/3d-cube-transparent-png-4.png
+info: https://icons.veryicon.com/png/o/miscellaneous/member-circle-im/about-12.png
+mail: https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/email-envelope-line-white-icon.png
+max: https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/all-2/maximize-h06vxx7d4germtj0l597pq.png/maximize-7eimol958eta44v0d3m7lr.png?_a=DATAg1AAZAA0
+min: https://cdn-icons-png.flaticon.com/512/8560/8560597.png
