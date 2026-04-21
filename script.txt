@@ -1,0 +1,15 @@
+Icons:
+Arrow: https://www.freeiconspng.com/uploads/right-arrow-icon-27.png
+Search: https://images.icon-icons.com/1674/PNG/512/search_111173.png
+eye: https://cdn-icons-png.flaticon.com/512/65/65000.png
+read: https://cdn-icons-png.flaticon.com/512/3068/3068380.png
+cube: https://cdn-icons-png.flaticon.com/512/84/84583.png
+clap: https://cdn-icons-png.flaticon.com/512/92/92197.png
+strip: https://cdn-icons-png.flaticon.com/512/916/916748.png
+contrtoller: https://cdn-icons-png.flaticon.com/512/3743/3743230.png
+cube_shaded: https://cdn-icons-png.flaticon.com/512/645/645928.png
+cube_vp: https://www.freeiconspng.com/thumbs/3d-cube-png/3d-cube-transparent-png-4.png
+info: https://icons.veryicon.com/png/o/miscellaneous/member-circle-im/about-12.png
+mail: https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/email-envelope-line-white-icon.png
+max: https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/all-2/maximize-h06vxx7d4germtj0l597pq.png/maximize-7eimol958eta44v0d3m7lr.png?_a=DATAg1AAZAA0
+min: https://cdn-icons-png.flaticon.com/512/8560/8560597.png
