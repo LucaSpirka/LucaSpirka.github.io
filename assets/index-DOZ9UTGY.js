@@ -8399,6 +8399,334 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             hidden: true,
             top: 0.5
           }),
+          createVNode(ContentHeadline, {
+            "headline-height": 3.7,
+            image: "/images/threed/son/son.jpg",
+            alt: "Verlassenes Haus im Wald, 3D Szenerie",
+            flip: true,
+            first: true
+          }, {
+            default: withCtx(() => [..._cache[0] || (_cache[0] = [
+              createTextVNode(" 3D & ", -1),
+              createBaseVNode("span", null, "Animation", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 2,
+            bottom: 0.5
+          }),
+          _cache[11] || (_cache[11] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
+          createVNode(ContentSpacer, {
+            top: 0.5,
+            bottom: 1.7
+          }),
+          _cache[12] || (_cache[12] = createBaseVNode("div", { id: "isdl" }, null, -1)),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            image: "/images/threed/isdl/isdl6.jpg",
+            alt: "Fall von einem Gebäude, 3D Szenerie angepasst auf reale Footage",
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[1] || (_cache[1] = [
+              createTextVNode(" Im Schatten ", -1),
+              createBaseVNode("span", null, "des Lichts", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/isdl/isdl.jpg",
+            alt: "3D-Modellierte Stadtszenerie in einer dystopischen Zukunft",
+            "image-right": true,
+            "image-width": 40
+          }, {
+            content: withCtx(() => [..._cache[2] || (_cache[2] = [
+              createBaseVNode("h3", null, "Im Schatten des Lichts", -1),
+              createBaseVNode("p", null, [
+                createBaseVNode("b", null, "Im Schatten des Lichts"),
+                createTextVNode(' ist ein kurzer Trailer für einen fiktiven Film. Der Trailer wurde im Rahmen des Moduls "Keying" an der Hochschule Harz produziert.'),
+                createBaseVNode("br"),
+                createTextVNode(" Es konnte mit hochwertigen Kameras, ausgiebiger Lichttechnik und neuester Software gearbeitet werden."),
+                createBaseVNode("br"),
+                createTextVNode(" Im Rahmen des Projektes konnte ich viel über die Arbeit im Team und den Umgang mit Greenscreen-Technik erlernen. ")
+              ], -1),
+              createBaseVNode("p", null, " Als Teil eines 3-Köpfigen VFX Teams war ich hauptsächlich an der Pre- und Postproduktion beteiligt. ", -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/play.png",
+                link: "https://youtu.be/LMM9EbzgYxk",
+                scale: 1,
+                "use-mask": true,
+                title: "Trailer auf YouTube anschauen"
+              })
+            ]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/isdl/isdl2.jpg",
+            alt: "3D-Modellierte, fiktionale Stadt der Zukunft",
+            "image-width": 47,
+            "hide-button": true
+          }, {
+            content: withCtx(() => [..._cache[3] || (_cache[3] = [
+              createBaseVNode("h3", null, "Die Stadt", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Meine Hauptaufgabe war es eine dystopische und niedergekommene Zukunftsversion der Stadt Wernigerode zu erstellen."),
+                createBaseVNode("br"),
+                createTextVNode(" Durch die prozedurale Verteilung von Gebäuden und Konstruktionen auf dem heutigen Grundriss der Stadt entstand eine neue, dystopische Megacity."),
+                createBaseVNode("br"),
+                createTextVNode(" Durch verschiedenste Straßen fahren prozedural verteilte Autos durch die heruntergekommene Szenerie. ")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" In der Szene folgen wir in einer animierten Kamerafahrt dem Flug eines aus "),
+                createBaseVNode("a", {
+                  href: "https://de.wikipedia.org/wiki/Blade_Runner_2049",
+                  target: "_blank"
+                }, "Blade Runner 2049"),
+                createTextVNode(' nachempfundener "Spinners" über die Stadt hinweg. ')
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/isdl/isdl5.jpg",
+            alt: "Gebäude explodiert im Hintergrund, realer Schauspieler im Vordergrund",
+            "image-right": true,
+            "image-width": 40,
+            "coin-type": unref(PageType).p_schatten,
+            copyright: "<b>Darsteller: </b>Timur Bauch, <b>Gebäudeteil Vordergrund:</b> Yannick Rast, Anzor Utzmaev"
+          }, {
+            content: withCtx(() => [..._cache[4] || (_cache[4] = [
+              createBaseVNode("h3", null, "VFX im Team", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" In diesem Projekt konnte ich zum ersten mal gemeinsam in einem größeren Team an den VFX arbeiten. Wir konnten uns miteinander austauschen, Arbeitsschritte planen und Workloads verteilen."),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Dieses Projekt hat im Endeffekt sehr viel mehr Zeit und Planung benötigt, als es zunächst den Anschein gemacht hatte."),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(" Nicht nur in der Postproduktion hat es viel Planung benötigt, auch in der Preproduction und beim Dreh musste viel aufeinander abgestimmt und auf viele Details achtgegeben werden. ")
+              ], -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/read.png",
+                onClick: () => unref(OpenPage)(unref(PageType).p_schatten),
+                scale: 0.8,
+                "use-mask": true,
+                title: "Mehr über dieses Projekt erfahren"
+              }, null, 8, ["onClick"])
+            ]),
+            _: 1
+          }, 8, ["coin-type"]),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSlider, {
+            images: [
+              { url: "/images/threed/isdl/isdl3.jpg", label: "Flug im Spinner - Anpassen von 3 verschiedenen Ebenen für das finale Composit", alt: "Darsteller 'sitzt' im digitalen Flugobjekt", copyright: "<b>Darsteller:</b> Timur Bauch,  <b>Keying / Color-Grading / Final Compositng:</b> Aaron Pöhlmann, Malte Kasolowsky", isOuter: true },
+              { url: "/images/threed/isdl/isdl4.jpg", label: "Arbeiten mit eigenen Simulationen und fertigen VDB", alt: "Explosion eines großen Gebäudes, digitale Szenerie", copyright: "<b>Keying / Color-Grading / Final Compositing:</b> Aaron Pöhlmann, Malte Kasolowsky" },
+              { url: "/images/threed/isdl/isdl.jpg", alt: "Ansicht einer Autobahn von Oben in der digitalen Stadt", copyright: "<b>Color-Grading / Final Compositing:</b> Aaron Pöhlmann, Malte Kasolowsky" }
+            ],
+            "flip-buttons": true
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          _cache[13] || (_cache[13] = createBaseVNode("div", { id: "dune" }, null, -1)),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            image: "/images/threed/dune/harvester_view.jpg",
+            alt: "Spice Harvester in der Wüste, 3D Szene",
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[5] || (_cache[5] = [
+              createTextVNode(" DUNE ", -1),
+              createBaseVNode("span", null, "Nacht auf Arrakis", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/dune/harvester_long.jpg",
+            alt: "Render eines Spice Harvesters (3D-Modelliert, prozedural Texturiert)",
+            "image-right": true,
+            "image-width": 40,
+            "coin-type": unref(PageType).p_dune
+          }, {
+            content: withCtx(() => [..._cache[6] || (_cache[6] = [
+              createBaseVNode("h3", null, "Nacht auf Arrakis", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(' Für das Modul "3D-Animation für Film und Spiele" habe ich mich entschieden, einen Fan-Film zu den neuesten "Dune"-Filmen zu machen. '),
+                createBaseVNode("br"),
+                createTextVNode(" Es hat fast zwei Jahre in Anspruch genommen, alle Assets für dieses Projekt zu erstellen."),
+                createBaseVNode("br"),
+                createTextVNode(" Ich bin auf die im Rahmen dieses Projektes entstandenen Modelle sehr stolz, da viele von ihnen sehr nah an die Designs aus den Filmen herankommen."),
+                createBaseVNode("br"),
+                createTextVNode(" Alle Assets wurden mit "),
+                createBaseVNode("a", { href: "https://www.blender.org/" }, "Blender"),
+                createTextVNode(" erstellt. Alle Texturen wurden prozedural (ohne Bilddateien) erstellt. ")
+              ], -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/read.png",
+                onClick: () => unref(OpenPage)(unref(PageType).p_dune),
+                scale: 0.8,
+                "use-mask": true,
+                title: "Mehr über dieses Projekt erfahren"
+              }, null, 8, ["onClick"])
+            ]),
+            _: 1
+          }, 8, ["coin-type"]),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/dune/A4_Fremen.png",
+            alt: "3D Modell eines Fremen (Charaktermodell)",
+            "image-width": 52,
+            "hide-button": true
+          }, {
+            content: withCtx(() => [..._cache[7] || (_cache[7] = [
+              createBaseVNode("h3", null, "Charaktere", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Im Rahmen dieses Projektes wollte ich mich erstmals an die Erstellung von Charakteren in "),
+                createBaseVNode("a", { href: "https://www.blender.org/" }, "Blender"),
+                createTextVNode(" wagen. "),
+                createBaseVNode("br"),
+                createTextVNode(' Ich habe für mein Projekt einen "Harkonnen" und einen "Fremen" den Designs aus den Filmen entsprechend nachgebaut.'),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Es hat sich als sehr große Herausforderung herausgestellt, verschiedenste organische Formen miteinander in Einklang zu bringen."),
+                createBaseVNode("br"),
+                createTextVNode(" Besonders der Anzug des Fremen bedeutete eine Menge an ineinander verschlungene Formen und Einzelteile."),
+                createBaseVNode("br"),
+                createTextVNode(" Ich bin sehr zufrieden mit den Charakteren und habe auch dafür gesorgt, dass sich die Charaktere angemessen mittels eines Rigs steuern lassen. ")
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          _cache[14] || (_cache[14] = createBaseVNode("div", { id: "son" }, null, -1)),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            image: "/images/threed/son/son.jpg",
+            alt: "Verlassenes Gebäude im Wald, 3D Szenerie",
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[8] || (_cache[8] = [
+              createTextVNode(" Strings ", -1),
+              createBaseVNode("span", null, "of Nightmare", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/son/son2.jpg",
+            alt: "Screenshot aus der 3D-Animation",
+            "image-right": true,
+            "image-width": 40,
+            "coin-type": unref(PageType).p_strings,
+            ",": "",
+            copyright: "<b>Charakter</b>: Mandy Rothe"
+          }, {
+            content: withCtx(() => [..._cache[9] || (_cache[9] = [
+              createBaseVNode("h3", null, "Motion Capture", -1),
+              createBaseVNode("p", null, [
+                createBaseVNode("b", null, "Strings of Nightmare"),
+                createTextVNode(' ist ein animierter Kurzfilm welcher sich im "Dead by Daylight" - Universum ansiedelt.'),
+                createBaseVNode("br"),
+                createTextVNode(" Der Kurzfilm ist ein Fan-Trailer, welcher zwei ausgedachte Charaktere für das Spiel ankündigt."),
+                createBaseVNode("br"),
+                createTextVNode(" Die Charaktere im Kurzfilm wurden mittels eines modernen Motion-Capture Anzugs aufgenommen."),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, " In einem Team aus vier Personen war ich für die Erstellung von 3D-Assets und der gesamten Szenerie, das Integrieren der animierten Charakter-Modelle, deren Interaktion miteinander und mit der Szene zuständig. ", -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/read.png",
+                onClick: () => unref(OpenPage)(unref(PageType).p_strings),
+                scale: 0.8,
+                "use-mask": true,
+                title: "Mehr über dieses Projekt erfahren"
+              }, null, 8, ["onClick"])
+            ]),
+            _: 1
+          }, 8, ["coin-type"]),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/son/son4.jpg",
+            alt: "Kampfszene zweier Charaktere, 3D Animation",
+            "image-width": 52,
+            "hide-button": true,
+            copyright: "<b>Charaktere</b>: Sebastian Siebert, Mandy Rothe"
+          }, {
+            content: withCtx(() => [..._cache[10] || (_cache[10] = [
+              createBaseVNode("h3", null, "Alles miteinander Verbunden", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Dieses Projekt war besonders aufwändig für mich, da sich hier vor allem am Ende gezeigt hatte, wie viel Aufwand es bedeutet mit solch komplexen Szenen und Animationen umzugehen. "),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" In Strings of Nightmare geht es Hauptsächlich um den Kampf des Protagonisten mit einer verhexten Puppe. Da wir nur einen Anzug gleichzeitig aufnehmen konnten, mussten die Interaktionen (Schläge, Tritte, Stöße) der Charaktere separat aufgenommen und im Nachhinein aufeinander abgepasst werden. "),
+                createBaseVNode("br"),
+                createTextVNode(" Dadurch entstanden kleine Unterschiede in den Timings von bestimmten Bewegungen, welche durch sorgfältiges Platzieren der Kamera und rechtzeitigen Schnitten verdeckt werden konnte."),
+                createBaseVNode("br")
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSlider, {
+            images: [
+              { url: "/images/threed/son/son3.jpg", label: "Bau und Texturierung der Szene", alt: "Geheimnisvolle Puppe steht in einem Innenhof, digitale Szene", copyright: "<b>Marionette:</b> Sebastian Siebert" },
+              { url: "/images/threed/son/son5.jpg", label: "Finden von interessanten Kameraeinstellungen und Kamerabewegungen, sowie Animation der Tiefenunschärfe", alt: "Alter Mann schaut auf uns herab, digitale Szene", copyright: "<b>Charakter:</b> Dennis Voigt", isOuter: true },
+              { url: "/images/threed/son/son6.jpg", label: "Animation von Objekten (z.B. Marionetten-Kreuz) angepasst auf Charakterbewegung", alt: "Geheimnisvolle Konstruktion eines Puppenspielers, digitale Szene", copyright: "<b>Charakter:</b> Dennis Voigt" }
+            ],
+            "flip-buttons": true
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
           createVNode(ContentSpacer, {
             hidden: true,
             top: 3
