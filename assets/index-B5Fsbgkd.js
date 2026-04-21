@@ -10207,7 +10207,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
             top: 2,
             bottom: 0.5
           }),
-          _cache[4] || (_cache[4] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, [
+          _cache[7] || (_cache[7] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, [
             createTextVNode(" Ein animierter Trailer zum Videospiel "),
             createBaseVNode("a", {
               href: "https://deadbydaylight.com",
@@ -10328,6 +10328,171 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
             hidden: false,
             top: 1.85,
             bottom: 2.7
+          }),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[4] || (_cache[4] = [
+              createTextVNode(" Kampf & ", -1),
+              createBaseVNode("span", null, "Interaktion", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentImageSidePanel, { "image-width": -0.6 }, {
+            content: withCtx(() => [..._cache[5] || (_cache[5] = [
+              createBaseVNode("h3", null, "Die Charaktere und die Welt", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Die Charaktere müssen im Trailer Türen auf machen, Taschenlampen halten und fallen lassen, gegeneinander kämpfen, an anderen Charakteren zerren und vieles mehr. Animationen, die in unterschiedlichen Takes gedreht wurden, mussten jetzt wieder miteinander (und im Kontext einer konsistenten Umwelt) interagieren."),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(" Das schwierigste an diesem Projekt war es die Animationen richtig miteinander interagieren zu lassen. Dank einer bereits vorliegenden Preview eines Kommilitonen war es einfacher, sich einen Überblick über die Choreografie zu machen. Sie allerdings in der Umgebung richtig zu verorten und für die Kamera ordentlich einzufangen stellte sich als die größte Schwierigkeit heraus."),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(" Zum Glück konnten kleinere Differenzen in Höhen und Timing durch simple Korrekturen in Posen oder Timing ausgebessert werden. Außerdem starteten und stoppten alle Animationen zu leicht unterschiedlichen Zeiten. Ich musste also stets die Kamerawinkel so anpassen, das wir nicht nur die Action in einer spannenden Komposition sehen können, sondern gleichzeitig auch ungewollte Sprünge zwischen Animationen aus dem Bild halten."),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(" In den Kampfszenen mussten die Schläge ungefähr zur richtigen Zeit den Gegner treffen um einen gewissen Impact zu erzeugen. Auch hier mussten die Kameraeinstellungen und viele der Schnitte um die Anfangs- und Endzeiten der Animationen angepasst werden."),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(' Die Charaktere interagieren außerdem mit ihrer Umwelt. So musste unter anderem der Fall einer Taschenlampe oder das Öffnen einer Tür animiert werden. Das "Werkzeug" des Puppenspielers musste ebenso der Handbewegung richtig folgen. Vieles konnte durch simples Parenting oder einfache Animationen & Simulationen gelöst werden. ')
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/door_r_interact.png",
+            alt: "Charakter öffnet Tür und leuchtet hinein, Render",
+            label: "Interaktion zwischen Charakter und Tür",
+            copyright: "<b>Charakter:</b> Mandy Rothe"
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/character_vp.PNG",
+            alt: "Charakter in der ersten Szene, Ansicht in Blender",
+            label: "Charakter hält die Taschenlampe",
+            copyright: "<b>Charakter:</b> Mandy Rothe"
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/pull_r.png",
+            alt: "Puppe greift nach Bein vom Charakter, Render",
+            label: "Charakter wird von Puppe gezogen, Abpassen der Animationen aufeinander für flüssiges Feeling",
+            copyright: "<b>Charaktere:</b> Sebastian Siebert, Mandy Rothe"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/ready_r.png",
+            alt: "CHarakter begibt sich in Kampfhaltung, Render",
+            copyright: "<b>Charakter:</b> Mandy Rothe"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/son4.jpg",
+            alt: "Charakter und Puppe kämpfen gegeneinander, Render",
+            label: "Abpassen der Animationen zum Erzeugen von 'Hits'",
+            copyright: "<b>Charaktere:</b> Sebastian Siebert, Mandy Rothe"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/son6.jpg",
+            alt: "Puppenspieler bewegt sein Werkzeug, Render",
+            label: "Interaktion des Puppenspielers mit seinem Werkzeug",
+            copyright: "<b>Charakter:</b> Dennis Voigt"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/unten_r.png",
+            alt: "Charakter tritt auf uns hinab, Render",
+            copyright: "<b>Charakter:</b> Mandy Rothe",
+            label: "Finden von interessanten und passenden Kameraeinstellungen"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/connect_r.png",
+            alt: "Kampf vom Charakter und Puppe",
+            copyright: "<b>Charaktere:</b> Mandy Rothe, Sebastian Siebert"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/son/flash_r.png",
+            alt: "Taschenlampe rollt nach einem F all auf dem Boden umher, Render",
+            label: "Simulation des organischen Falls der Taschenlampe"
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[6] || (_cache[6] = [
+              createTextVNode(" Weitere ", -1),
+              createBaseVNode("span", null, "Einblicke", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentImageSlider, {
+            images: [
+              { url: "/images/threed/son/haus_concept.png", alt: "Innenhof in der Anfangsphase", label: "Innenhof in der Konzeptionierungsphase", isOuter: true },
+              { url: "/images/threed/son/haus_in_concept.png", alt: "Innenhof in der Anfangsphase", label: "Innenhof im Bau" },
+              { url: "/images/threed/son/haus_in_concept2.png", alt: "Innenhof in der Anfangsphase" },
+              { url: "/images/threed/son/fight_preview.jpg", alt: "", copyright: "<b>Ersteller: Dennis Voigt</b>", label: "Vom Komilitonen erstellte Preview zum Verständnis der erhaltenen Animationspakete" }
+            ],
+            "flip-buttons": true
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentSpacer, {
+            top: 2,
+            bottom: 0.5
+          }),
+          _cache[8] || (_cache[8] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Team: Mandy Rothe, Sebastian Siebert, Dennis Voigt, Luca Joel Spirka ", -1)),
+          createVNode(ContentSpacer, {
+            top: 0.5,
+            bottom: 0
+          }),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 2
           })
         ]),
         _: 1
@@ -10455,7 +10620,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
             button: withCtx(() => [
               createVNode(CoinSurface, {
                 image: "/images/icons/eye.png",
-                onClick: () => unref(OpenPage)(unref(PageType).p_strings),
+                onClick: () => unref(OpenPage)(unref(PageType).threed, false, "son"),
                 scale: 0.8,
                 "use-mask": true,
                 title: "Zu diesem Projekt springen"
