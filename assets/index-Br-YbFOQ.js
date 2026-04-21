@@ -6459,8 +6459,8 @@ function HideLoadingError() {
   dontShowLoadingError.value = true;
   HasLoadingError.value = false;
 }
-const _hoisted_1$h = { class: "boxcoinInner" };
-const _sfc_main$t = /* @__PURE__ */ defineComponent({
+const _hoisted_1$i = { class: "boxcoinInner" };
+const _sfc_main$u = /* @__PURE__ */ defineComponent({
   __name: "BoxCoin",
   setup(__props) {
     function mousedown(el) {
@@ -6476,7 +6476,7 @@ const _sfc_main$t = /* @__PURE__ */ defineComponent({
         onMouseup: _cache[1] || (_cache[1] = ($event) => mouseup(_ctx.$el)),
         onMouseleave: _cache[2] || (_cache[2] = ($event) => mouseup(_ctx.$el))
       }, [
-        createBaseVNode("div", _hoisted_1$h, [
+        createBaseVNode("div", _hoisted_1$i, [
           renderSlot(_ctx.$slots, "default", {}, void 0)
         ]),
         _cache[3] || (_cache[3] = createBaseVNode("div", { class: "boxcoinSide" }, null, -1))
@@ -6491,10 +6491,10 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const BoxCoin = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["__scopeId", "data-v-0e3fae59"]]);
-const _hoisted_1$g = ["href", "target"];
-const _hoisted_2$c = ["src"];
-const _sfc_main$s = /* @__PURE__ */ defineComponent({
+const BoxCoin = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["__scopeId", "data-v-0e3fae59"]]);
+const _hoisted_1$h = ["href", "target"];
+const _hoisted_2$d = ["src"];
+const _sfc_main$t = /* @__PURE__ */ defineComponent({
   __name: "CoinSurface",
   props: {
     image: {},
@@ -6524,14 +6524,14 @@ const _sfc_main$s = /* @__PURE__ */ defineComponent({
           key: 0,
           href: __props.link ? __props.link : "",
           target: __props.samePage ? "_self" : "_blank"
-        }, null, 8, _hoisted_1$g)) : createCommentVNode("", true),
+        }, null, 8, _hoisted_1$h)) : createCommentVNode("", true),
         !__props.useMask ? (openBlock(), createElementBlock("img", {
           key: 1,
           draggable: false,
           src: __props.image,
           style: normalizeStyle("user-select: none; scale: " + (__props.scale ? __props.scale : 1) + ";"),
           onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
-        }, null, 44, _hoisted_2$c)) : createCommentVNode("", true),
+        }, null, 44, _hoisted_2$d)) : createCommentVNode("", true),
         __props.useMask ? (openBlock(), createElementBlock("div", {
           key: 2,
           class: "img",
@@ -6541,10 +6541,10 @@ const _sfc_main$s = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const CoinSurface = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["__scopeId", "data-v-18911670"]]);
-const _hoisted_1$f = ["type", "active"];
-const _hoisted_2$b = ["delayed"];
-const _sfc_main$r = /* @__PURE__ */ defineComponent({
+const CoinSurface = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["__scopeId", "data-v-18911670"]]);
+const _hoisted_1$g = ["type", "active"];
+const _hoisted_2$c = ["delayed"];
+const _sfc_main$s = /* @__PURE__ */ defineComponent({
   __name: "Coin",
   props: {
     type: {},
@@ -6571,16 +6571,16 @@ const _sfc_main$r = /* @__PURE__ */ defineComponent({
           delayed: __props.delayed
         }, [
           renderSlot(_ctx.$slots, "default", {}, void 0)
-        ], 8, _hoisted_2$b),
+        ], 8, _hoisted_2$c),
         _cache[3] || (_cache[3] = createBaseVNode("div", { class: "coinSide" }, null, -1))
-      ], 40, _hoisted_1$f);
+      ], 40, _hoisted_1$g);
     };
   }
 });
-const Coin = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["__scopeId", "data-v-dbf530b3"]]);
-const _hoisted_1$e = ["invertedSurface", "hasButton"];
-const _hoisted_2$a = ["innerHTML"];
-const _sfc_main$q = /* @__PURE__ */ defineComponent({
+const Coin = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["__scopeId", "data-v-dbf530b3"]]);
+const _hoisted_1$f = ["invertedSurface", "hasButton"];
+const _hoisted_2$b = ["innerHTML"];
+const _sfc_main$r = /* @__PURE__ */ defineComponent({
   __name: "ContentLabelPanel",
   props: {
     label: {},
@@ -6597,7 +6597,7 @@ const _sfc_main$q = /* @__PURE__ */ defineComponent({
         invertedSurface: __props.invertSurface,
         hasButton: !__props.disableButton
       }, [
-        createBaseVNode("div", { innerHTML: __props.label }, null, 8, _hoisted_2$a),
+        createBaseVNode("div", { innerHTML: __props.label }, null, 8, _hoisted_2$b),
         !__props.disableButton ? (openBlock(), createBlock(Coin, {
           key: 0,
           class: "labelCoin",
@@ -6610,16 +6610,16 @@ const _sfc_main$q = /* @__PURE__ */ defineComponent({
           ]),
           _: 3
         }, 8, ["type", "onClick", "invertedRing"])) : createCommentVNode("", true)
-      ], 8, _hoisted_1$e);
+      ], 8, _hoisted_1$f);
     };
   }
 });
-const ContentLabelPanel = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["__scopeId", "data-v-5a90a136"]]);
-const _hoisted_1$d = ["collapse"];
-const _hoisted_2$9 = { class: "leftField" };
-const _hoisted_3$5 = { id: "titleContainer" };
-const _hoisted_4$3 = { id: "hamburgerField" };
-const _hoisted_5$3 = { class: "rightField" };
+const ContentLabelPanel = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["__scopeId", "data-v-5a90a136"]]);
+const _hoisted_1$e = ["collapse"];
+const _hoisted_2$a = { class: "leftField" };
+const _hoisted_3$6 = { id: "titleContainer" };
+const _hoisted_4$4 = { id: "hamburgerField" };
+const _hoisted_5$4 = { class: "rightField" };
 const _hoisted_6$1 = { id: "optionContainer" };
 const _hoisted_7 = { id: "kontaktContainer" };
 const _hoisted_8 = { id: "footer" };
@@ -6628,7 +6628,7 @@ const _hoisted_10 = {
   id: "hamburgerOuter",
   actionDone: true
 };
-const _sfc_main$p = /* @__PURE__ */ defineComponent({
+const _sfc_main$q = /* @__PURE__ */ defineComponent({
   __name: "MenuPanel",
   setup(__props) {
     const collapsed = /* @__PURE__ */ ref(false);
@@ -6666,9 +6666,9 @@ const _sfc_main$p = /* @__PURE__ */ defineComponent({
           actionDone: false,
           draggable: "false"
         }, [
-          createBaseVNode("div", _hoisted_2$9, [
-            createBaseVNode("div", _hoisted_3$5, [
-              createBaseVNode("div", _hoisted_4$3, [
+          createBaseVNode("div", _hoisted_2$a, [
+            createBaseVNode("div", _hoisted_3$6, [
+              createBaseVNode("div", _hoisted_4$4, [
                 createVNode(BoxCoin, {
                   class: "hamburgerBtn",
                   onClick: _cache[0] || (_cache[0] = ($event) => collapse())
@@ -6689,7 +6689,7 @@ const _sfc_main$p = /* @__PURE__ */ defineComponent({
               createBaseVNode("span", null, "Portfolio")
             ], -1))
           ]),
-          createBaseVNode("div", _hoisted_5$3, [
+          createBaseVNode("div", _hoisted_5$4, [
             createBaseVNode("div", _hoisted_6$1, [
               createVNode(ContentLabelPanel, {
                 label: "Über Mich",
@@ -6787,7 +6787,7 @@ const _sfc_main$p = /* @__PURE__ */ defineComponent({
               active: unref(OpenedPage) == unref(PageType).impressum
             }, "Impressum", 8, _hoisted_9)
           ])
-        ], 8, _hoisted_1$d),
+        ], 8, _hoisted_1$e),
         createBaseVNode("div", _hoisted_10, [
           createVNode(BoxCoin, {
             class: "hamburgerBtn",
@@ -6803,32 +6803,32 @@ const _sfc_main$p = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const MenuPanel = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["__scopeId", "data-v-cdecdc41"]]);
-const _hoisted_1$c = { class: "throbberContainer" };
-const _sfc_main$o = /* @__PURE__ */ defineComponent({
+const MenuPanel = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["__scopeId", "data-v-cdecdc41"]]);
+const _hoisted_1$d = { class: "throbberContainer" };
+const _sfc_main$p = /* @__PURE__ */ defineComponent({
   __name: "Throbber",
   setup(__props) {
     return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div", _hoisted_1$c, [..._cache[0] || (_cache[0] = [
+      return openBlock(), createElementBlock("div", _hoisted_1$d, [..._cache[0] || (_cache[0] = [
         createBaseVNode("div", { class: "throbber" }, null, -1)
       ])]);
     };
   }
 });
-const Throbber = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__scopeId", "data-v-0ba1b2ac"]]);
-const _hoisted_1$b = ["first"];
-const _hoisted_2$8 = {
+const Throbber = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["__scopeId", "data-v-0ba1b2ac"]]);
+const _hoisted_1$c = ["first"];
+const _hoisted_2$9 = {
   key: 1,
   draggable: false,
   class: "contentImage"
 };
-const _hoisted_3$4 = ["src", "alt"];
-const _hoisted_4$2 = ["first"];
-const _hoisted_5$2 = {
+const _hoisted_3$5 = ["src", "alt"];
+const _hoisted_4$3 = ["first"];
+const _hoisted_5$3 = {
   key: 3,
   class: "copyRight"
 };
-const _sfc_main$n = /* @__PURE__ */ defineComponent({
+const _sfc_main$o = /* @__PURE__ */ defineComponent({
   __name: "ContentHeadline",
   props: {
     headlineHeight: {},
@@ -6848,14 +6848,14 @@ const _sfc_main$n = /* @__PURE__ */ defineComponent({
           first: __props.first
         }, [
           renderSlot(_ctx.$slots, "default", {}, void 0)
-        ], 12, _hoisted_1$b)) : createCommentVNode("", true),
-        __props.image ? (openBlock(), createElementBlock("image", _hoisted_2$8, [
+        ], 12, _hoisted_1$c)) : createCommentVNode("", true),
+        __props.image ? (openBlock(), createElementBlock("image", _hoisted_2$9, [
           createVNode(Throbber),
           createBaseVNode("img", {
             src: __props.image,
             alt: __props.alt,
             onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
-          }, null, 40, _hoisted_3$4)
+          }, null, 40, _hoisted_3$5)
         ])) : createCommentVNode("", true),
         !__props.flip ? (openBlock(), createElementBlock("div", {
           key: 2,
@@ -6864,17 +6864,17 @@ const _sfc_main$n = /* @__PURE__ */ defineComponent({
           first: __props.first
         }, [
           renderSlot(_ctx.$slots, "default", {}, void 0)
-        ], 12, _hoisted_4$2)) : createCommentVNode("", true),
-        __props.copyright ? (openBlock(), createElementBlock("div", _hoisted_5$2, toDisplayString(__props.copyright), 1)) : createCommentVNode("", true)
+        ], 12, _hoisted_4$3)) : createCommentVNode("", true),
+        __props.copyright ? (openBlock(), createElementBlock("div", _hoisted_5$3, toDisplayString(__props.copyright), 1)) : createCommentVNode("", true)
       ], 64);
     };
   }
 });
-const ContentHeadline = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["__scopeId", "data-v-d1de1e5a"]]);
-const _hoisted_1$a = ["imageRight", "slim"];
-const _hoisted_2$7 = ["src", "alt"];
-const _hoisted_3$3 = ["innerHTML"];
-const _sfc_main$m = /* @__PURE__ */ defineComponent({
+const ContentHeadline = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__scopeId", "data-v-d1de1e5a"]]);
+const _hoisted_1$b = ["imageRight", "slim"];
+const _hoisted_2$8 = ["src", "alt"];
+const _hoisted_3$4 = ["innerHTML"];
+const _sfc_main$n = /* @__PURE__ */ defineComponent({
   __name: "ContentImageSidePanel",
   props: {
     image: {},
@@ -6903,7 +6903,7 @@ const _sfc_main$m = /* @__PURE__ */ defineComponent({
             src: __props.image,
             alt: __props.alt,
             onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
-          }, null, 40, _hoisted_2$7),
+          }, null, 40, _hoisted_2$8),
           createVNode(Throbber),
           createVNode(Coin, {
             hidden: __props.hideButton,
@@ -6919,7 +6919,7 @@ const _sfc_main$m = /* @__PURE__ */ defineComponent({
             key: 0,
             class: "copyRight",
             innerHTML: __props.copyright
-          }, null, 8, _hoisted_3$3)) : createCommentVNode("", true)
+          }, null, 8, _hoisted_3$4)) : createCommentVNode("", true)
         ], 4)) : createCommentVNode("", true),
         createBaseVNode("div", {
           class: "contentSide",
@@ -6927,14 +6927,14 @@ const _sfc_main$m = /* @__PURE__ */ defineComponent({
         }, [
           renderSlot(_ctx.$slots, "content", {}, void 0)
         ], 4)
-      ], 8, _hoisted_1$a);
+      ], 8, _hoisted_1$b);
     };
   }
 });
-const ContentImageSidePanel = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["__scopeId", "data-v-c6d319cd"]]);
-const _hoisted_1$9 = { class: "contentLabelArrayLabel" };
-const _hoisted_2$6 = ["recenter"];
-const _sfc_main$l = /* @__PURE__ */ defineComponent({
+const ContentImageSidePanel = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["__scopeId", "data-v-c6d319cd"]]);
+const _hoisted_1$a = { class: "contentLabelArrayLabel" };
+const _hoisted_2$7 = ["recenter"];
+const _sfc_main$m = /* @__PURE__ */ defineComponent({
   __name: "ContentLabelArray",
   props: {
     label: {},
@@ -6944,22 +6944,22 @@ const _sfc_main$l = /* @__PURE__ */ defineComponent({
   setup(__props) {
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock(Fragment, null, [
-        createBaseVNode("div", _hoisted_1$9, toDisplayString(__props.label), 1),
+        createBaseVNode("div", _hoisted_1$a, toDisplayString(__props.label), 1),
         createBaseVNode("div", {
           class: "contentLabelArray",
           style: normalizeStyle("gap: 1.1rem " + __props.gap + "rem;"),
           recenter: __props.recenter
         }, [
           renderSlot(_ctx.$slots, "default", {}, void 0)
-        ], 12, _hoisted_2$6)
+        ], 12, _hoisted_2$7)
       ], 64);
     };
   }
 });
-const ContentLabelArray = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["__scopeId", "data-v-d1dbee1d"]]);
-const _hoisted_1$8 = ["hide", "secCol"];
-const _hoisted_2$5 = ["alignment", "innerHTML"];
-const _sfc_main$k = /* @__PURE__ */ defineComponent({
+const ContentLabelArray = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["__scopeId", "data-v-d1dbee1d"]]);
+const _hoisted_1$9 = ["hide", "secCol"];
+const _hoisted_2$6 = ["alignment", "innerHTML"];
+const _sfc_main$l = /* @__PURE__ */ defineComponent({
   __name: "ContentSpacer",
   props: {
     hidden: { type: Boolean },
@@ -6983,20 +6983,20 @@ const _sfc_main$k = /* @__PURE__ */ defineComponent({
           class: "contentSpacerText",
           alignment: __props.labelAlign,
           innerHTML: __props.label
-        }, null, 8, _hoisted_2$5)) : createCommentVNode("", true)
-      ], 12, _hoisted_1$8);
+        }, null, 8, _hoisted_2$6)) : createCommentVNode("", true)
+      ], 12, _hoisted_1$9);
     };
   }
 });
-const ContentSpacer = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["__scopeId", "data-v-e792d6ef"]]);
-const _hoisted_1$7 = { class: "contentPanel" };
-const _hoisted_2$4 = { class: "contentPanelInner" };
-const _sfc_main$j = /* @__PURE__ */ defineComponent({
+const ContentSpacer = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["__scopeId", "data-v-e792d6ef"]]);
+const _hoisted_1$8 = { class: "contentPanel" };
+const _hoisted_2$5 = { class: "contentPanelInner" };
+const _sfc_main$k = /* @__PURE__ */ defineComponent({
   __name: "ContentPanel",
   setup(__props) {
     return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div", _hoisted_1$7, [
-        createBaseVNode("div", _hoisted_2$4, [
+      return openBlock(), createElementBlock("div", _hoisted_1$8, [
+        createBaseVNode("div", _hoisted_2$5, [
           _cache[0] || (_cache[0] = createBaseVNode("div", { class: "contentStartSpacer" }, null, -1)),
           renderSlot(_ctx.$slots, "default", {}, void 0)
         ])
@@ -7004,11 +7004,11 @@ const _sfc_main$j = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ContentPanel = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["__scopeId", "data-v-9a2e37c5"]]);
-const _hoisted_1$6 = { class: "mainArea" };
-const _hoisted_2$3 = { class: "about" };
-const _hoisted_3$2 = ["onClick"];
-const _sfc_main$i = /* @__PURE__ */ defineComponent({
+const ContentPanel = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["__scopeId", "data-v-9a2e37c5"]]);
+const _hoisted_1$7 = { class: "mainArea" };
+const _hoisted_2$4 = { class: "about" };
+const _hoisted_3$3 = ["onClick"];
+const _sfc_main$j = /* @__PURE__ */ defineComponent({
   __name: "AboutPanel",
   setup(__props) {
     const age = yearDiff(/* @__PURE__ */ new Date("2002-02-12"));
@@ -7041,7 +7041,7 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
             ])]),
             _: 1
           }),
-          createBaseVNode("div", _hoisted_1$6, [
+          createBaseVNode("div", _hoisted_1$7, [
             _cache[3] || (_cache[3] = createBaseVNode("div", { class: "side" }, [
               createBaseVNode("div", { class: "myImage" }, [
                 createBaseVNode("img", {
@@ -7060,7 +7060,7 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
                 createBaseVNode("br")
               ])
             ], -1)),
-            createBaseVNode("div", _hoisted_2$3, [
+            createBaseVNode("div", _hoisted_2$4, [
               createBaseVNode("p", null, " Hi! Ich bin Luca Spirka, " + toDisplayString(unref(age)) + " Jahre alt und begeistert für alles was mit Film, 3D und Games zu tun hat! ", 1),
               _cache[1] || (_cache[1] = createBaseVNode("p", null, [
                 createTextVNode(" Seit meiner Kindheit liebe ich Filme und Videospiele. Durch ein Praktikum in der Anwendungsentwicklung bei "),
@@ -7652,7 +7652,7 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
           }, [..._cache[12] || (_cache[12] = [
             createBaseVNode("span", null, "Weitere Projekte", -1),
             createTextVNode(" ➝", -1)
-          ])], 8, _hoisted_3$2),
+          ])], 8, _hoisted_3$3),
           createVNode(ContentSpacer, {
             top: 4,
             bottom: 0.5
@@ -7680,10 +7680,10 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const AboutPanel = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["__scopeId", "data-v-209a54a8"]]);
-const _hoisted_1$5 = ["full", "on"];
-const _hoisted_2$2 = ["title"];
-const _sfc_main$h = /* @__PURE__ */ defineComponent({
+const AboutPanel = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["__scopeId", "data-v-209a54a8"]]);
+const _hoisted_1$6 = ["full", "on"];
+const _hoisted_2$3 = ["title"];
+const _sfc_main$i = /* @__PURE__ */ defineComponent({
   __name: "FullscreenToggle",
   props: {
     fElem: {}
@@ -7742,8 +7742,8 @@ const _sfc_main$h = /* @__PURE__ */ defineComponent({
               scale: 0.62,
               "use-mask": true
             })) : createCommentVNode("", true)
-          ], 8, _hoisted_2$2)
-        ], 8, _hoisted_1$5),
+          ], 8, _hoisted_2$3)
+        ], 8, _hoisted_1$6),
         createBaseVNode("div", {
           class: "hoverArea",
           onMousemove: _cache[1] || (_cache[1] = ($event) => mousemove())
@@ -7752,17 +7752,17 @@ const _sfc_main$h = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const FullscreenToggle = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-bff22117"]]);
-const _hoisted_1$4 = ["flipped", "flip-toggle"];
-const _hoisted_2$1 = {
+const FullscreenToggle = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["__scopeId", "data-v-bff22117"]]);
+const _hoisted_1$5 = ["flipped", "flip-toggle"];
+const _hoisted_2$2 = {
   key: 0,
   class: "label"
 };
-const _hoisted_3$1 = { class: "imgContainer" };
-const _hoisted_4$1 = ["src", "alt"];
-const _hoisted_5$1 = ["innerHTML"];
+const _hoisted_3$2 = { class: "imgContainer" };
+const _hoisted_4$2 = ["src", "alt"];
+const _hoisted_5$2 = ["innerHTML"];
 const _hoisted_6 = ["innerHTML"];
-const _sfc_main$g = /* @__PURE__ */ defineComponent({
+const _sfc_main$h = /* @__PURE__ */ defineComponent({
   __name: "ContentImage",
   props: {
     image: {},
@@ -7786,8 +7786,8 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
         "flip-toggle": __props.flipToggle
       }, [
         _cache[1] || (_cache[1] = createBaseVNode("div", { class: "hider" }, null, -1)),
-        __props.label && __props.flipped ? (openBlock(), createElementBlock("div", _hoisted_2$1, toDisplayString(__props.label), 1)) : createCommentVNode("", true),
-        createBaseVNode("div", _hoisted_3$1, [
+        __props.label && __props.flipped ? (openBlock(), createElementBlock("div", _hoisted_2$2, toDisplayString(__props.label), 1)) : createCommentVNode("", true),
+        createBaseVNode("div", _hoisted_3$2, [
           createBaseVNode("img", {
             loading: "lazy",
             draggable: "false",
@@ -7795,7 +7795,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
             style: normalizeStyle(__props.pad ? "padding-top: " + __props.pad + "rem; padding-bottom: " + __props.pad + "rem;" : ""),
             alt: __props.alt,
             onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
-          }, null, 44, _hoisted_4$1),
+          }, null, 44, _hoisted_4$2),
           !__props.inSlider ? (openBlock(), createBlock(FullscreenToggle, {
             key: 0,
             "f-elem": unref(fElem)
@@ -7805,7 +7805,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
             key: 1,
             class: "copyRight",
             innerHTML: __props.copyright
-          }, null, 8, _hoisted_5$1)) : createCommentVNode("", true)
+          }, null, 8, _hoisted_5$2)) : createCommentVNode("", true)
         ]),
         __props.label && !__props.flipped ? (openBlock(), createElementBlock("div", {
           key: 1,
@@ -7813,13 +7813,13 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
           innerHTML: __props.label
         }, null, 8, _hoisted_6)) : createCommentVNode("", true),
         renderSlot(_ctx.$slots, "default", {}, void 0)
-      ], 8, _hoisted_1$4);
+      ], 8, _hoisted_1$5);
     };
   }
 });
-const ContentImage = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-1512c240"]]);
-const _hoisted_1$3 = { class: "innerImageContainer" };
-const _sfc_main$f = /* @__PURE__ */ defineComponent({
+const ContentImage = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-1512c240"]]);
+const _hoisted_1$4 = { class: "innerImageContainer" };
+const _sfc_main$g = /* @__PURE__ */ defineComponent({
   __name: "ContentImageSlider",
   props: {
     images: {},
@@ -7856,7 +7856,7 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
         "flip-toggle": __props.flipButtons
       }, {
         default: withCtx(() => [
-          createBaseVNode("div", _hoisted_1$3, [
+          createBaseVNode("div", _hoisted_1$4, [
             (openBlock(true), createElementBlock(Fragment, null, renderList(innerImages.value, (image) => {
               return openBlock(), createBlock(ContentImage, {
                 image: image.url,
@@ -7909,8 +7909,8 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ContentImageSlider = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["__scopeId", "data-v-671b9fad"]]);
-const _sfc_main$e = /* @__PURE__ */ defineComponent({
+const ContentImageSlider = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-671b9fad"]]);
+const _sfc_main$f = /* @__PURE__ */ defineComponent({
   __name: "FilmPanel",
   setup(__props) {
     return (_ctx, _cache) => {
@@ -8053,7 +8053,7 @@ const _sfc_main$e = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const _sfc_main$d = /* @__PURE__ */ defineComponent({
+const _sfc_main$e = /* @__PURE__ */ defineComponent({
   __name: "GamesPanel",
   setup(__props) {
     return (_ctx, _cache) => {
@@ -8339,8 +8339,8 @@ const _sfc_main$d = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const _hoisted_1$2 = { class: "lastUpdated" };
-const _sfc_main$c = /* @__PURE__ */ defineComponent({
+const _hoisted_1$3 = { class: "lastUpdated" };
+const _sfc_main$d = /* @__PURE__ */ defineComponent({
   __name: "ImpressumPanel",
   setup(__props) {
     return (_ctx, _cache) => {
@@ -8373,7 +8373,7 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
             hidden: true,
             top: 1
           }),
-          createBaseVNode("div", _hoisted_1$2, "Letzte Aktualisierung der Webseite am: " + toDisplayString(unref(LastUpdate).toLocaleDateString()), 1),
+          createBaseVNode("div", _hoisted_1$3, "Letzte Aktualisierung der Webseite am: " + toDisplayString(unref(LastUpdate).toLocaleDateString()), 1),
           createVNode(ContentSpacer, {
             hidden: true,
             top: 0.4
@@ -8384,7 +8384,54 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ImpressumPanel = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-5e827224"]]);
+const ImpressumPanel = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-5e827224"]]);
+const _hoisted_1$2 = { class: "contentVideo" };
+const _hoisted_2$1 = ["innerHTML"];
+const _hoisted_3$1 = ["poster"];
+const _hoisted_4$1 = ["src"];
+const _hoisted_5$1 = ["innerHTML"];
+const _sfc_main$c = /* @__PURE__ */ defineComponent({
+  __name: "ContentVideo",
+  props: {
+    src: {},
+    poster: {},
+    label: {},
+    flipped: { type: Boolean }
+  },
+  setup(__props) {
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div", _hoisted_1$2, [
+        __props.label && __props.flipped ? (openBlock(), createElementBlock("div", {
+          key: 0,
+          class: "label",
+          innerHTML: __props.label
+        }, null, 8, _hoisted_2$1)) : createCommentVNode("", true),
+        __props.src ? (openBlock(), createElementBlock("video", {
+          key: 1,
+          controls: "",
+          preload: "metadata",
+          muted: "",
+          autoplay: false,
+          poster: __props.poster ? __props.poster : "",
+          onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
+        }, [
+          createBaseVNode("source", {
+            src: "./videos/" + __props.src,
+            type: "video/mp4"
+          }, null, 8, _hoisted_4$1),
+          _cache[1] || (_cache[1] = createTextVNode(" Your browser does not support the video tag. ", -1)),
+          createVNode(Throbber)
+        ], 40, _hoisted_3$1)) : createCommentVNode("", true),
+        __props.label && !__props.flipped ? (openBlock(), createElementBlock("div", {
+          key: 2,
+          class: "label",
+          innerHTML: __props.label
+        }, null, 8, _hoisted_5$1)) : createCommentVNode("", true)
+      ]);
+    };
+  }
+});
+const ContentVideo = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-7807380e"]]);
 const _sfc_main$b = /* @__PURE__ */ defineComponent({
   __name: "ThreedPanel",
   setup(__props) {
@@ -8416,12 +8463,12 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 2,
             bottom: 0.5
           }),
-          _cache[5] || (_cache[5] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
+          _cache[7] || (_cache[7] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
           createVNode(ContentSpacer, {
             top: 0.5,
             bottom: 1.7
           }),
-          _cache[6] || (_cache[6] = createBaseVNode("div", { id: "isdl" }, null, -1)),
+          _cache[8] || (_cache[8] = createBaseVNode("div", { id: "isdl" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/isdl/isdl6.jpg",
@@ -8549,6 +8596,46 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             hidden: false,
             top: 1.85,
             bottom: 2.7
+          }),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[5] || (_cache[5] = [
+              createTextVNode(" Raum der ", -1),
+              createBaseVNode("span", null, "Zukunft", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentImage, {
+            image: "/images/threed/rdz.png",
+            alt: "Hochwertiger Render eines Jugendzimmers in einer dystopischen Zukunft",
+            pad: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, { "image-width": -0.6 }, {
+            content: withCtx(() => [..._cache[6] || (_cache[6] = [
+              createBaseVNode("h3", null, "Raum der Zukunft", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(' Dieses Projekt entstand im Rahmen des Moduls "3D Modellierung für Film und Spiele". Das Bild zeigt einen Raum in einer weit entfernten, dystopischen Zukunft. Das Werk soll an Filme wie "Blade Runner" erinnern. Ich habe großen Wert auf die kleinen Details und eine stimmige Komposition gelegt.'),
+                createBaseVNode("br"),
+                createBaseVNode("br"),
+                createTextVNode(" Das Bild wurde in Blender gerendert und dort auch nachbearbeitet. Das finale Composit erhielt im hochschulinternen MINFF-Award 2023 den zweiten Platz. ")
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 3,
+            hidden: true
+          }),
+          createVNode(ContentVideo, {
+            src: "Rdz_Mo.mp4",
+            label: "Making Of - Die Enstehung von 'Raum der Zukunft'",
+            flipped: true
           }),
           createVNode(ContentSpacer, {
             hidden: true,
@@ -10524,8 +10611,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       trailer: TrailerPanel,
       about: AboutPanel,
       threed: _sfc_main$b,
-      film: _sfc_main$e,
-      games: _sfc_main$d,
+      film: _sfc_main$f,
+      games: _sfc_main$e,
       impressum: ImpressumPanel,
       p_schatten: _sfc_main$3,
       p_kurios: _sfc_main$6,
