@@ -8463,12 +8463,12 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 2,
             bottom: 0.5
           }),
-          _cache[7] || (_cache[7] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
+          _cache[10] || (_cache[10] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
           createVNode(ContentSpacer, {
             top: 0.5,
             bottom: 1.7
           }),
-          _cache[8] || (_cache[8] = createBaseVNode("div", { id: "isdl" }, null, -1)),
+          _cache[11] || (_cache[11] = createBaseVNode("div", { id: "isdl" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/isdl/isdl6.jpg",
@@ -8597,11 +8597,95 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 1.85,
             bottom: 2.7
           }),
+          _cache[12] || (_cache[12] = createBaseVNode("div", { id: "dune" }, null, -1)),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            image: "/images/threed/dune/harvester_view.jpg",
+            alt: "Spice Harvester in der Wüste, 3D Szene",
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[5] || (_cache[5] = [
+              createTextVNode(" DUNE ", -1),
+              createBaseVNode("span", null, "Nacht auf Arrakis", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/dune/harvester_long.jpg",
+            alt: "Render eines Spice Harvesters (3D-Modelliert, prozedural Texturiert)",
+            "image-right": true,
+            "image-width": 40,
+            "coin-type": unref(PageType).p_dune
+          }, {
+            content: withCtx(() => [..._cache[6] || (_cache[6] = [
+              createBaseVNode("h3", null, "Nacht auf Arrakis", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(' Für das Modul "3D-Animation für Film und Spiele" habe ich mich entschieden, einen Fan-Film zu den neuesten "Dune"-Filmen zu machen. '),
+                createBaseVNode("br"),
+                createTextVNode(" Es hat fast zwei Jahre in Anspruch genommen, alle Assets für dieses Projekt zu erstellen."),
+                createBaseVNode("br"),
+                createTextVNode(" Ich bin auf die im Rahmen dieses Projektes entstandenen Modelle sehr stolz, da viele von ihnen sehr nah an die Designs aus den Filmen herankommen."),
+                createBaseVNode("br"),
+                createTextVNode(" Alle Assets wurden mit "),
+                createBaseVNode("a", { href: "https://www.blender.org/" }, "Blender"),
+                createTextVNode(" erstellt. Alle Texturen wurden prozedural (ohne Bilddateien) erstellt. ")
+              ], -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/read.png",
+                onClick: () => unref(OpenPage)(unref(PageType).p_dune),
+                scale: 0.8,
+                "use-mask": true,
+                title: "Mehr über dieses Projekt erfahren"
+              }, null, 8, ["onClick"])
+            ]),
+            _: 1
+          }, 8, ["coin-type"]),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/dune/A4_Fremen.png",
+            alt: "3D Modell eines Fremen (Charaktermodell)",
+            "image-width": 52,
+            "hide-button": true
+          }, {
+            content: withCtx(() => [..._cache[7] || (_cache[7] = [
+              createBaseVNode("h3", null, "Charaktere", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Im Rahmen dieses Projektes wollte ich mich erstmals an die Erstellung von Charakteren in "),
+                createBaseVNode("a", { href: "https://www.blender.org/" }, "Blender"),
+                createTextVNode(" wagen. "),
+                createBaseVNode("br"),
+                createTextVNode(' Ich habe für mein Projekt einen "Harkonnen" und einen "Fremen" den Designs aus den Filmen entsprechend nachgebaut.'),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Es hat sich als sehr große Herausforderung herausgestellt, verschiedenste organische Formen miteinander in Einklang zu bringen."),
+                createBaseVNode("br"),
+                createTextVNode(" Besonders der Anzug des Fremen bedeutete eine Menge an ineinander verschlungene Formen und Einzelteile."),
+                createBaseVNode("br"),
+                createTextVNode(" Ich bin sehr zufrieden mit den Charakteren und habe auch dafür gesorgt, dass sich die Charaktere angemessen mittels eines Rigs steuern lassen. ")
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             flip: true
           }, {
-            default: withCtx(() => [..._cache[5] || (_cache[5] = [
+            default: withCtx(() => [..._cache[8] || (_cache[8] = [
               createTextVNode(" Raum der ", -1),
               createBaseVNode("span", null, "Zukunft", -1)
             ])]),
@@ -8617,7 +8701,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             bottom: 3
           }),
           createVNode(ContentImageSidePanel, { "image-width": -0.6 }, {
-            content: withCtx(() => [..._cache[6] || (_cache[6] = [
+            content: withCtx(() => [..._cache[9] || (_cache[9] = [
               createBaseVNode("h3", null, "Raum der Zukunft", -1),
               createBaseVNode("p", null, [
                 createTextVNode(' Dieses Projekt entstand im Rahmen des Moduls "3D Modellierung für Film und Spiele". Das Bild zeigt einen Raum in einer weit entfernten, dystopischen Zukunft. Das Werk soll an Filme wie "Blade Runner" erinnern. Ich habe großen Wert auf die kleinen Details und eine stimmige Komposition gelegt.'),
