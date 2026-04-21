@@ -8463,12 +8463,12 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 2,
             bottom: 0.5
           }),
-          _cache[10] || (_cache[10] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
+          _cache[12] || (_cache[12] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
           createVNode(ContentSpacer, {
             top: 0.5,
             bottom: 1.7
           }),
-          _cache[11] || (_cache[11] = createBaseVNode("div", { id: "isdl" }, null, -1)),
+          _cache[13] || (_cache[13] = createBaseVNode("div", { id: "isdl" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/isdl/isdl6.jpg",
@@ -8597,7 +8597,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 1.85,
             bottom: 2.7
           }),
-          _cache[12] || (_cache[12] = createBaseVNode("div", { id: "dune" }, null, -1)),
+          _cache[14] || (_cache[14] = createBaseVNode("div", { id: "dune" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/dune/harvester_view.jpg",
@@ -8681,11 +8681,67 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 1.85,
             bottom: 2.7
           }),
+          _cache[15] || (_cache[15] = createBaseVNode("div", { id: "son" }, null, -1)),
+          createVNode(ContentHeadline, {
+            "headline-height": 5.7,
+            image: "/images/threed/son/son.jpg",
+            alt: "Verlassenes Gebäude im Wald, 3D Szenerie",
+            flip: true
+          }, {
+            default: withCtx(() => [..._cache[8] || (_cache[8] = [
+              createTextVNode(" Strings ", -1),
+              createBaseVNode("span", null, "of Nightmare", -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            top: 1,
+            bottom: 3
+          }),
+          createVNode(ContentImageSidePanel, {
+            image: "/images/threed/son/son4.jpg",
+            alt: "Kampfszene zweier Charaktere, 3D Animation",
+            "image-width": 52,
+            "hide-button": true,
+            copyright: "<b>Charaktere</b>: Sebastian Siebert, Mandy Rothe"
+          }, {
+            content: withCtx(() => [..._cache[9] || (_cache[9] = [
+              createBaseVNode("h3", null, "Alles miteinander Verbunden", -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" Dieses Projekt war besonders aufwändig für mich, da sich hier vor allem am Ende gezeigt hatte, wie viel Aufwand es bedeutet mit solch komplexen Szenen und Animationen umzugehen. "),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, [
+                createTextVNode(" In Strings of Nightmare geht es Hauptsächlich um den Kampf des Protagonisten mit einer verhexten Puppe. Da wir nur einen Anzug gleichzeitig aufnehmen konnten, mussten die Interaktionen (Schläge, Tritte, Stöße) der Charaktere separat aufgenommen und im Nachhinein aufeinander abgepasst werden. "),
+                createBaseVNode("br"),
+                createTextVNode(" Dadurch entstanden kleine Unterschiede in den Timings von bestimmten Bewegungen, welche durch sorgfältiges Platzieren der Kamera und rechtzeitigen Schnitten verdeckt werden konnte."),
+                createBaseVNode("br")
+              ], -1)
+            ])]),
+            _: 1
+          }),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSlider, {
+            images: [
+              { url: "/images/threed/son/son3.jpg", label: "Bau und Texturierung der Szene", alt: "Geheimnisvolle Puppe steht in einem Innenhof, digitale Szene", copyright: "<b>Marionette:</b> Sebastian Siebert" },
+              { url: "/images/threed/son/son5.jpg", label: "Finden von interessanten Kameraeinstellungen und Kamerabewegungen, sowie Animation der Tiefenunschärfe", alt: "Alter Mann schaut auf uns herab, digitale Szene", copyright: "<b>Charakter:</b> Dennis Voigt", isOuter: true },
+              { url: "/images/threed/son/son6.jpg", label: "Animation von Objekten (z.B. Marionetten-Kreuz) angepasst auf Charakterbewegung", alt: "Geheimnisvolle Konstruktion eines Puppenspielers, digitale Szene", copyright: "<b>Charakter:</b> Dennis Voigt" }
+            ],
+            "flip-buttons": true
+          }),
+          createVNode(ContentSpacer, {
+            hidden: false,
+            top: 1.85,
+            bottom: 2.7
+          }),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             flip: true
           }, {
-            default: withCtx(() => [..._cache[8] || (_cache[8] = [
+            default: withCtx(() => [..._cache[10] || (_cache[10] = [
               createTextVNode(" Raum der ", -1),
               createBaseVNode("span", null, "Zukunft", -1)
             ])]),
@@ -8701,7 +8757,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             bottom: 3
           }),
           createVNode(ContentImageSidePanel, { "image-width": -0.6 }, {
-            content: withCtx(() => [..._cache[9] || (_cache[9] = [
+            content: withCtx(() => [..._cache[11] || (_cache[11] = [
               createBaseVNode("h3", null, "Raum der Zukunft", -1),
               createBaseVNode("p", null, [
                 createTextVNode(' Dieses Projekt entstand im Rahmen des Moduls "3D Modellierung für Film und Spiele". Das Bild zeigt einen Raum in einer weit entfernten, dystopischen Zukunft. Das Werk soll an Filme wie "Blade Runner" erinnern. Ich habe großen Wert auf die kleinen Details und eine stimmige Komposition gelegt.'),
