@@ -8463,12 +8463,12 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 2,
             bottom: 0.5
           }),
-          _cache[12] || (_cache[12] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
+          _cache[13] || (_cache[13] = createBaseVNode("h3", { style: { "color": "var(--textSecCol)", "font-family": "'Courier New'", "line-height": "1.6rem", "font-size": "1.25rem", "text-align": "justify" } }, " Verschiedene Projekte aus der 3D Modellierung und 3D Animation mit Fokus auf qualitativ hochwertige und detaillierte Assets, sowie einen prozeduralen Ansatz in Bereichen der Texturierung und der Animation.", -1)),
           createVNode(ContentSpacer, {
             top: 0.5,
             bottom: 1.7
           }),
-          _cache[13] || (_cache[13] = createBaseVNode("div", { id: "isdl" }, null, -1)),
+          _cache[14] || (_cache[14] = createBaseVNode("div", { id: "isdl" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/isdl/isdl6.jpg",
@@ -8597,7 +8597,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 1.85,
             bottom: 2.7
           }),
-          _cache[14] || (_cache[14] = createBaseVNode("div", { id: "dune" }, null, -1)),
+          _cache[15] || (_cache[15] = createBaseVNode("div", { id: "dune" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/dune/harvester_view.jpg",
@@ -8681,7 +8681,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             top: 1.85,
             bottom: 2.7
           }),
-          _cache[15] || (_cache[15] = createBaseVNode("div", { id: "son" }, null, -1)),
+          _cache[16] || (_cache[16] = createBaseVNode("div", { id: "son" }, null, -1)),
           createVNode(ContentHeadline, {
             "headline-height": 5.7,
             image: "/images/threed/son/son.jpg",
@@ -8699,13 +8699,49 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             bottom: 3
           }),
           createVNode(ContentImageSidePanel, {
+            image: "/images/threed/son/son2.jpg",
+            alt: "Screenshot aus der 3D-Animation",
+            "image-right": true,
+            "image-width": 40,
+            "coin-type": unref(PageType).p_strings,
+            copyright: "<b>Charakter</b>: Mandy Rothe"
+          }, {
+            content: withCtx(() => [..._cache[9] || (_cache[9] = [
+              createBaseVNode("h3", null, "Motion Capture", -1),
+              createBaseVNode("p", null, [
+                createBaseVNode("b", null, "Strings of Nightmare"),
+                createTextVNode(' ist ein animierter Kurzfilm welcher sich im "Dead by Daylight" - Universum ansiedelt.'),
+                createBaseVNode("br"),
+                createTextVNode(" Der Kurzfilm ist ein Fan-Trailer, welcher zwei ausgedachte Charaktere für das Spiel ankündigt."),
+                createBaseVNode("br"),
+                createTextVNode(" Die Charaktere im Kurzfilm wurden mittels eines modernen Motion-Capture Anzugs aufgenommen."),
+                createBaseVNode("br")
+              ], -1),
+              createBaseVNode("p", null, " In einem Team aus vier Personen war ich für die Erstellung von 3D-Assets und der gesamten Szenerie, das Integrieren der animierten Charakter-Modelle, deren Interaktion miteinander und mit der Szene zuständig. ", -1)
+            ])]),
+            button: withCtx(() => [
+              createVNode(CoinSurface, {
+                image: "/images/icons/read.png",
+                onClick: () => unref(OpenPage)(unref(PageType).p_strings),
+                scale: 0.8,
+                "use-mask": true,
+                title: "Mehr über dieses Projekt erfahren"
+              }, null, 8, ["onClick"])
+            ]),
+            _: 1
+          }, 8, ["coin-type"]),
+          createVNode(ContentSpacer, {
+            hidden: true,
+            top: 3
+          }),
+          createVNode(ContentImageSidePanel, {
             image: "/images/threed/son/son4.jpg",
             alt: "Kampfszene zweier Charaktere, 3D Animation",
             "image-width": 52,
             "hide-button": true,
             copyright: "<b>Charaktere</b>: Sebastian Siebert, Mandy Rothe"
           }, {
-            content: withCtx(() => [..._cache[9] || (_cache[9] = [
+            content: withCtx(() => [..._cache[10] || (_cache[10] = [
               createBaseVNode("h3", null, "Alles miteinander Verbunden", -1),
               createBaseVNode("p", null, [
                 createTextVNode(" Dieses Projekt war besonders aufwändig für mich, da sich hier vor allem am Ende gezeigt hatte, wie viel Aufwand es bedeutet mit solch komplexen Szenen und Animationen umzugehen. "),
@@ -8741,7 +8777,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             "headline-height": 5.7,
             flip: true
           }, {
-            default: withCtx(() => [..._cache[10] || (_cache[10] = [
+            default: withCtx(() => [..._cache[11] || (_cache[11] = [
               createTextVNode(" Raum der ", -1),
               createBaseVNode("span", null, "Zukunft", -1)
             ])]),
@@ -8757,7 +8793,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
             bottom: 3
           }),
           createVNode(ContentImageSidePanel, { "image-width": -0.6 }, {
-            content: withCtx(() => [..._cache[11] || (_cache[11] = [
+            content: withCtx(() => [..._cache[12] || (_cache[12] = [
               createBaseVNode("h3", null, "Raum der Zukunft", -1),
               createBaseVNode("p", null, [
                 createTextVNode(' Dieses Projekt entstand im Rahmen des Moduls "3D Modellierung für Film und Spiele". Das Bild zeigt einen Raum in einer weit entfernten, dystopischen Zukunft. Das Werk soll an Filme wie "Blade Runner" erinnern. Ich habe großen Wert auf die kleinen Details und eine stimmige Komposition gelegt.'),
@@ -10527,7 +10563,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
             button: withCtx(() => [
               createVNode(CoinSurface, {
                 image: "/images/icons/eye.png",
-                onClick: () => unref(OpenPage)(unref(PageType).p_schatten),
+                onClick: () => unref(OpenPage)(unref(PageType).threed, false, "isdl"),
                 scale: 0.8,
                 "use-mask": true,
                 title: "Zu diesem Projekt springen"
@@ -10556,7 +10592,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
             button: withCtx(() => [
               createVNode(CoinSurface, {
                 image: "/images/icons/eye.png",
-                onClick: () => unref(OpenPage)(unref(PageType).p_dune),
+                onClick: () => unref(OpenPage)(unref(PageType).threed, false, "dune"),
                 scale: 0.8,
                 "use-mask": true,
                 title: "Zu diesem Projekt springen"
@@ -10585,7 +10621,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
             button: withCtx(() => [
               createVNode(CoinSurface, {
                 image: "/images/icons/eye.png",
-                onClick: () => unref(OpenPage)(unref(PageType).p_strings),
+                onClick: () => unref(OpenPage)(unref(PageType).threed, false, "son"),
                 scale: 0.8,
                 "use-mask": true,
                 title: "Zu diesem Projekt springen"
