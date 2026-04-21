@@ -8406,24 +8406,24 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
           class: "label",
           innerHTML: __props.label
         }, null, 8, _hoisted_2$1)) : createCommentVNode("", true),
-        __props.src ? (openBlock(), createElementBlock("video", {
-          key: 1,
+        createBaseVNode("video", {
           controls: "",
           preload: "metadata",
           muted: "",
           autoplay: false,
-          poster: __props.poster ? __props.poster : "",
-          onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
+          poster: __props.poster ? __props.poster : ""
         }, [
-          createBaseVNode("source", {
+          __props.src ? (openBlock(), createElementBlock("source", {
+            key: 0,
             src: "./videos/" + __props.src,
-            type: "video/mp4"
-          }, null, 8, _hoisted_4$1),
+            type: "video/mp4",
+            onError: _cache[0] || (_cache[0] = ($event) => unref(ShowLoadingError)())
+          }, null, 40, _hoisted_4$1)) : createCommentVNode("", true),
           _cache[1] || (_cache[1] = createTextVNode(" Your browser does not support the video tag. ", -1)),
           createVNode(Throbber)
-        ], 40, _hoisted_3$1)) : createCommentVNode("", true),
+        ], 8, _hoisted_3$1),
         __props.label && !__props.flipped ? (openBlock(), createElementBlock("div", {
-          key: 2,
+          key: 1,
           class: "label",
           innerHTML: __props.label
         }, null, 8, _hoisted_5$1)) : createCommentVNode("", true)
@@ -8431,7 +8431,7 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ContentVideo = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-7807380e"]]);
+const ContentVideo = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-434647e1"]]);
 const _sfc_main$b = /* @__PURE__ */ defineComponent({
   __name: "ThreedPanel",
   setup(__props) {
